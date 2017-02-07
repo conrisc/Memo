@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial,sans-serif;
+}
+
+#gameBoard {
+  padding: 20px;
+  background: #EEE;
+  overflow: hidden;
+  max-width: 650px;
+  margin: 20px auto 10px auto;
+  box-shadow: inset 0 0 20px #999;
+}
+
+.card {
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  float: left;
+}
+
+#movesBox {
+  text-transform: uppercase;
+  margin: 10px auto 5px auto;
+  width: 500px;
+  padding: 5px;
+  box-shadow: 0 8px 13px -7px #777;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
